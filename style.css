@@ -1,0 +1,140 @@
+/*Liz Rodriguez
+https://lizrodriguez.github.io*/
+h1 {
+  font-family: 'VT323', monospace;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+body, div {
+  position: absolute;
+  width: 800px;
+  height: 600px;
+}
+
+div#rules {
+  padding: 0;
+  margin: 0 auto;
+  background-image: url("images/coffee_storefront_px.png");
+  text-align:center;
+}
+
+button {
+  font-family: 'VT323', monospace;
+  margin: 30px auto;
+  background-color: #004C7F;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 14px 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+button:hover {
+  box-shadow: 5px 5px 5px #888888;
+}
+
+button#start{
+  background-color: #00687F;
+}
+
+button#gameLevelHard{
+  background-color: #CC0F00;
+}
+
+#rules {
+  padding: 20px;
+  text-align: left;
+  font-family: 'VT323', monospace;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 35px;
+  color: #FFFFFF;
+}
+
+div#board {
+  background-image: url("images/coffee_shop.jpg");
+  text-align:center;
+}
+
+p#boardInstruction {
+  margin: 0 auto;
+  position: relative;
+  font-family: 'VT323', monospace;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  padding: 10px;
+  font-size: 45px;
+  color: #FFFFFF;
+}
+
+span {
+  font-style: italic;
+}
+
+#timer {
+  top: 8px;
+  left: 640px;
+  position: absolute;
+  font-family: 'VT323', monospace;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 30px;
+  color: #FFFFFF;
+}
+
+#baristaScore {
+  top: 450px; /*y*/
+  left: 500px;  /*x*/
+  position: absolute;
+  font-family: 'VT323', monospace;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+#zombieScore {
+  top: 490px; /*y*/
+  left: 500px; /*x*/
+  position: absolute;
+  font-family: 'VT323', monospace;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+#gameOver {
+  position: absolute;
+  font-family: 'VT323', monospace;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-size: 90px;
+  color: #FF0000;
+  text-align: center;
+}
+
+.zombieIn {
+  position: absolute;
+  background-image: url("images/caffeine_zombie_in.png");
+  width: 128px;
+  height: 128px;
+}
+
+.zombieOut {
+  position: absolute;
+  background-image: url("images/caffeine_zombie_out.png");
+  width: 128px;
+  height: 128px;
+}
+
+.zombieAngry {
+  position: absolute;
+  background-image: url("images/caffeine_zombie_angry.png");
+  width: 128px;
+  height: 128px;
+}
+
+.zombieHappy {
+  position: absolute;
+  background-image: url("images/caffeine_zombie_happy.png");
+  width: 128px;
+  height: 128px;
+}
